@@ -31,3 +31,10 @@ def deQueue():
     data = queue[front]
     queue[front] = None
     return data
+
+SIZE = 5
+queue = [None for _ in range(SIZE)]
+front = rear = 0
+
+if __name__ == "__main__":
+    select = input("골라라")
