@@ -1,5 +1,3 @@
-
-
 # Dijkstra 최단경로 알고리즘
 def shortest_path_dijkstra(vtx, adj, start):
     vsize = len(vtx)
