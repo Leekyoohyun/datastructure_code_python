@@ -4,7 +4,6 @@ def fact(num):
         return 1
     fact_result = num * fact(num-1)
 
-    print(fact_result)
     return fact_result
 
-fact(5)
+print(fact(5))
