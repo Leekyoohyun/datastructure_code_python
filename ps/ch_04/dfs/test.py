@@ -1,6 +1,9 @@
-graph = {
-    '토마토': [1,2,3,4,5],
-    '바나나': [1,2,3,4,5],
-}
+numbers = [1,1,1,1,1]
 
-print(graph['토미토'])
+leaves = [0]
+print(leaves)
+
+tmp = [1,-1]
+
+leaves = tmp
+print(leaves)
