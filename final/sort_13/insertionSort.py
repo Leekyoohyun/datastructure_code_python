@@ -9,3 +9,13 @@ def findInsertionIdx(ary, data):
         return len(ary)
     else:
         return findIdx
+    
+
+def insertionSort(ary):
+    n = len(ary)
+    for end in range(1, n):
+        for cur in range(end, 0, -1):
+            if ary[cur] < ary[cur-1]:
+                ary[cur], ary[cur-1] = ary[cur-1], ary[cur]
+    return ary
+
